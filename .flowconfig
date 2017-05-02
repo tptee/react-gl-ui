@@ -1,0 +1,10 @@
+[ignore]
+.*/node_modules/conventional-changelog-core/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.name_mapper='react-gl-ui' -> '<PROJECT_ROOT>/packages/react-gl-ui/src/index.js'

@@ -1,0 +1,16 @@
+---
+extends:
+  - formidable/configurations/es6-react
+  - plugin:flowtype/recommended
+
+plugins:
+  - flowtype
+
+env:
+  browser: true
+
+rules:
+  func-style: off
+  arrow-parens: off
+  quotes: ["error", "single"]
+  indent: ["error", 2, { "SwitchCase": 1 }]
